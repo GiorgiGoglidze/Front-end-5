@@ -29,6 +29,8 @@ section {
     justify-content:space-between;
 }
 .container{
+ 
+   
     width: 1366px;
  
 }
@@ -44,8 +46,8 @@ section {
     
 
 .button {
-    background-color: #FF99C8;
-    border: none;
+    bbackground: #FF99C8;
+    border-radius: 10px;;
   
     padding: 10px 25px;
     text-align: center;
@@ -136,11 +138,23 @@ section {
   }
   
   .footer {
-    height: 300px ;
+     height: 300px ;
       display: flex;
       background-color:#D0F4DE;
   }
-         
 
+  .overlap{
+    position:relative;
+    border:1px solid red;
+   width:500px;
+   height:500px;
+  }
+  .overlap img1{
+    position:absolute;
+    border:1px solid green;
+    z-index:1
+  }
+  
+  
 
 
